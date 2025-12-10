@@ -70,7 +70,7 @@ a {
 
 /* Footer */
 footer {
-    background-color: var(--copper);
+    background-color: var(--dust-grey);
     font-size: 0.9rem;
 }
 
@@ -101,5 +101,11 @@ footer li:hover {
 .partner-logo:hover {
 transform: scale(1.05);
 filter: brightness(1.1);
+}
+
+.section-troupeau {
+    background-color: var(--deep-space-blue);
+    color: var(--dust-grey);
+    text-align: right;
 }
   
