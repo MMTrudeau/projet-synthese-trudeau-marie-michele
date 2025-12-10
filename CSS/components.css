@@ -1,0 +1,29 @@
+:root {
+    --dust-grey: #CDC4B9;
+    --copper: #A0703B;
+    --blood-red: #91090F;
+    --deep-space-blue: #003049;
+}
+
+footer .footer-link,
+footer .footer-link:visited {
+  color: var(--blood-red);
+}
+
+footer .footer-link:hover {
+  color: var(--deep-space-blue);
+  text-decoration: underline;
+}
+
+header .nav-link {
+    color: var(--blood-red);
+}
+
+header .nav-link:hover,
+header .nav-link:focus {
+    color: var(--deep-space-blue);
+}
+
+header .nav-link.fw-semibold {
+    color: var(--copper);
+}
