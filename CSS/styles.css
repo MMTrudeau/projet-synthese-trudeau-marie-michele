@@ -11,6 +11,10 @@ body {
     background-color: #ffffff;
 }
 
+.h2-bleu {
+    color: var(--deep-space-blue);
+}
+
 a {
     text-decoration: none;
 }
@@ -106,5 +110,16 @@ filter: brightness(1.1);
     background-color: var(--deep-space-blue);
     color: var(--dust-grey);
     text-align: right;
+}
+
+.mission {
+    background-color: var(--dust-grey);
+}
+
+.card-mission {
+    background-color: var(--copper);
+    color: var(--dust-grey);
+
+
 }
   
