@@ -143,3 +143,10 @@ filter: brightness(1.1);
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0 0.12);
     transform: translateY(-10px);
 }
+
+.mission {
+    background-image: url("../img/Mission_R32_5758.jpg");
+    background-size: cover;
+    background-position: center;
+    color: var(--deep-space-blue);
+}
