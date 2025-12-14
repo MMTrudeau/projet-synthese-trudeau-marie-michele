@@ -119,7 +119,12 @@ filter: brightness(1.1);
 .card-mission {
     background-color: var(--copper);
     color: var(--dust-grey);
-
-
 }
   
+.faq-container-bg-color {
+    background-color: var(--dust-grey);
+}
+
+.adresse {
+    font-style: italic;
+}
