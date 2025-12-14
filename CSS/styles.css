@@ -128,3 +128,8 @@ filter: brightness(1.1);
 .adresse {
     font-style: italic;
 }
+
+.intro-troupeau {
+    background-color: var(--deep-space-blue);
+    color: var(--dust-grey);
+}
