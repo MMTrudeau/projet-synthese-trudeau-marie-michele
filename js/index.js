@@ -1,8 +1,13 @@
-
-  window.addEventListener("load", () => {
-    document.getElementById("popup").style.display = "flex";
+window.addEventListener("load", () => {
+    const popup = document.getElementById("popup");
+    const closeBtn = document.getElementById("closePopup");
+  
+    if (!popup || !closeBtn) return;
+  
+    popup.style.display = "flex";
+  
+    closeBtn.addEventListener("click", () => {
+      popup.style.display = "none";
+    });
   });
-
-  document.getElementById("closePopup").addEventListener("click", () => {
-    document.getElementById("popup").style.display = "none";
-  });
+  
